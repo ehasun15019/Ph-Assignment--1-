@@ -7,6 +7,11 @@
     font-family: var(--f-font);
 }
 
+html 
+{
+    scroll-behavior: smooth;
+}
+
 :root 
 {
     --primary-color: #4E47FF;
@@ -283,3 +288,38 @@
     width: 300px;
 }
 /* contact section end */
+
+
+/* footer section start */
+.footer-content 
+{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.footer-content h2 
+{
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.footer-content p 
+{
+    font-size: 0.9rem;
+    padding-bottom: 8px;
+    color: gray;
+}
+
+.footer-content .link-section  
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-content .link-section a
+{
+    text-decoration: none;
+    color: gray;
+}
+/* footer section end */
