@@ -243,6 +243,53 @@ html
 /* review section end */
 
 
+/* works section start */
+.works 
+{
+    background: var(--second-color);
+    padding: 30px 200px;
+}
+
+.works-content 
+{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    border-radius: 10px;
+}
+
+.works-content h3 
+{
+    font-size: 2.85rem;
+    font-weight: 600;
+}
+
+
+.works-content p 
+{
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.works-content h3, 
+.works-content p, 
+.works-content button
+{
+    margin-bottom: 12px;
+} 
+
+.works-content img 
+{
+    width: 600px;
+    border-radius: 30px;
+}
+/* works section end */
+
+
+
 /* contact section start */
 .contact 
 {
