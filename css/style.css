@@ -236,3 +236,50 @@
     color: #B3B3B3;
 }
 /* review section end */
+
+
+/* contact section start */
+.contact 
+{
+    background: var(--second-color);
+}
+
+.contact-content 
+{
+    display: flex;
+    padding: 30px 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-content  h2 
+{
+    font-size: 3rem;
+}
+
+.contact-content form div 
+{
+    margin-bottom: 8px;
+}
+
+.contact-content input,
+.contact-content textarea 
+{
+    width: 300px;
+    padding: 10px 6px;
+    margin-top: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #C9CFE3;
+}
+
+.contact-content textarea 
+{
+    height: 80px;
+}
+
+.contact-content .main-btn 
+{
+    width: 300px;
+}
+/* contact section end */
