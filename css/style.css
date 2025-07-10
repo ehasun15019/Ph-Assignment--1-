@@ -1,5 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--f-font);
 }
+
+:root 
+{
+    --primary-color: #4E47FF;
+    --f-font: "Poppins", sans-serif;
+    --s-font: "Quicksand", sans-serif;
+}
+
+.main-btn 
+{
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.main-btn:hover 
+{
+    background: #2820fa;
+}
+
+/* header section start */
+.header
+{
+    background-image: url("../img/Hero-bg.png");
+    background-repeat: no-repeat;
+}
+
+.hero-section 
+{
+    padding: 0px 240px;
+}
+
+.navbar 
+{
+    padding: 30px 0px;
+}
+
+.navbar nav 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h3 
+{
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.hero-content 
+{
+    text-align: center;
+    padding: 180px 0px 20px 0px;
+}
+
+.hero-content h1
+{
+    font-weight: 800;
+    font-size: 2.5rem;
+    font-family: var(--s-font);
+}
+
+.hero-content button 
+{
+    margin: 20px 0px 200px 0px;
+}
+/* header section end */
