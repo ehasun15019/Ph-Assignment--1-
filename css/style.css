@@ -78,3 +78,34 @@
     margin: 20px 0px 200px 0px;
 }
 /* header section end */
+
+
+/* About section start */
+.about 
+{
+    padding: 50px 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about h3 
+{
+    font-family: var(--s-font);
+    font-size: 1.8rem;
+    padding-bottom: 15px;
+}
+
+.about p 
+{
+    font-weight: 300;
+    padding-bottom: 15px;
+    color: #a8a8a8;
+}
+
+.about img 
+{
+    border-radius: 60px;
+    width: 340px;
+}
+/* About section end */
