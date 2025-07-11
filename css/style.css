@@ -198,9 +198,15 @@ html
 {
     background: #fff;
     width: 310px;
-    padding: 8px 10px;
+    padding: 10px 10px;
     border-radius: 8px;
     border: 2px solid #F7F2F2;
+}
+
+.review .card .star-sec 
+{
+    font-size: 0.9rem;
+    padding-top: 8px;
 }
 
 .review .card h4 
@@ -318,7 +324,7 @@ html
 .contact-content textarea 
 {
     width: 300px;
-    padding: 10px 6px;
+    padding: 10px 11px;
     margin-top: 10px;
     outline: none;
     border-radius: 5px;
